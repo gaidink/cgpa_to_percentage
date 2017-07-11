@@ -96,7 +96,7 @@ li {
 /*-------------------------------------*/
 
 body {
-    background: url("https://static.pexels.com/photos/5412/water-blue-ocean.jpg");
+    background: url("https://static.pexels.com/photos/160186/pexels-photo-160186.jpeg");
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
@@ -161,7 +161,7 @@ main {
     margin-left: 10%;
     margin-top: 0px;
     margin-bottom: auto;
-    background-color: RGBA(7, 47, 82, 1.00);
+    background-color: RGBA(1, 1, 1, 0.7);
     background-size: cover;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -174,8 +174,8 @@ main {
 }
 
 #content_header {
-    color: RGBA(136, 237, 39, 1.00);
-    margin-bottom: 100px;
+    color: #ccc;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -191,7 +191,8 @@ main {
 #msg, #result {
     display: inline-block;
     margin-top: 20px;
-    height: 30px;
+    height: 40px;
+    max-height: 40px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -212,7 +213,7 @@ input[type='text'] {
 }
 
 button {
-    margin-top: 200px;
+    margin-top: 100px;
     height: 40px;
     width: 200px;
     background-color: RGBA(70, 101, 169, 1.00);
@@ -224,7 +225,7 @@ button {
     color: #bbb;
 
 }
-input[type='submit']:hover {
+button:hover {
     background-color: RGBA(86, 117, 185, 1.00);
 }
 
