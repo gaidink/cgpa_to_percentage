@@ -104,6 +104,7 @@ body {
     font-family: sans-serif;
     box-sizing: border-box;
     color: #fff;
+    height: 100vh;
 }
 
 header {
@@ -179,9 +180,25 @@ main {
 }
 
 #content_body{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     padding-top: 80px;
     text-align: center;
 
+}
+
+#msg, #result {
+    display: inline-block;
+    margin-top: 20px;
+    height: 30px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#result {
+    color: yellow;
 }
 
 input[type='text'] {
@@ -194,7 +211,7 @@ input[type='text'] {
     outline: none;
 }
 
-input[type='submit'] {
+button {
     margin-top: 200px;
     height: 40px;
     width: 200px;

@@ -16,14 +16,14 @@
         </header>
         <main>
             <div id="content_header" class="content_div">
-                <h3>CGPA to Percentage conversion for University of Mumbai</h3>
+                <h4>CGPA to Percentage conversion for University of Mumbai</h4>
             </div>
             <div id="content_body" class="content_div">
-                Enter CGPA &nbsp; <input type="text" name="cgpa">
+                Enter CGPA &nbsp; <input type="text" id="cgpa" name="cgpa">
                 <div id="percentage">
-                    <span id="pc" > </span> <span id="result">  </span>
+                    <div id="msg" ></div> <div id="result">  </div>
                 </div>
-                <input type="submit" value="Get Percentage">
+                <button onclick="result_display()">Get Percentage</button>
             </div>
         </main>
         <footer>
