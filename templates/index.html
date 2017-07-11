@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>MU:cbgs-percentage</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='style/main.css')}}" />
+    </head>
+    <body>
+        <header>
+            <div id="header_left" class="header_div">
+                <a href="/">Home</a>
+            </div>
+            <div id="header_right" class="header_div">
+            </div>
+        </header>
+        <main>
+            <div id="content_header" class="content_div">
+                <h3>CGPA to Percentage conversion for University of Mumbai</h3>
+            </div>
+            <div id="content_body" class="content_div">
+                Enter CGPA &nbsp; <input type="text" name="cgpa">
+                <div id="percentage">
+                    <span id="pc" > </span> <span id="result">  </span>
+                </div>
+                <input type="submit" value="Get Percentage">
+            </div>
+        </main>
+        <footer>
+            &copy; Gaidink 2017
+        </footer>
+    </body>
+    <script charset="utf-8" src="{{url_for('static', filename='script/main.js')}}"></script>
+</html>
